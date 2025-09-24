@@ -2,7 +2,7 @@
 
 ## Организация репрезитория
 
-Все разборы и актуальные вопросы вы сможете найти на закладке [Issues](https://github.com/unsighera/Championship2026Preparation/issues) и найти ответ на свой вопрос или [задать вопрос](https://github.com/unsighera/Championship2026Preparation/issues/new).
+Все разборы и актуальные вопросы вы сможете найти на закладке [Issues](https://github.com/unsighera/Championship2026Preparation/issues) и найти ответ на свой вопрос или [задать вопрос](https://github.com/unsighera/Championship2026Preparation/issues/new). Теория которую я выкладываю находится с Label "documentation". Вы будете ставить "question", для удобной фильтрации
 
 Для выполнения конкрусного задания необходимо [создать свою ветку](https://github.com/unsighera/Championship2026Preparation/branches) и загружать туда задания по мере выполнения.
 
