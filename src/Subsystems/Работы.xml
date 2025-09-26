@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="91650e97-35cc-42be-abd1-3ac64b8bdba8">
+		<InternalInfo>
+			<xr:PropertyState>
+				<xr:Property>CommandInterface</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Работы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6c5b0a51-8257-44f4-87c2-d467e639c683</ExtendedConfigurationObject>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.пр_РаботаСКонтактЦентром</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.пр_ИнтеграцияGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.пр_СинхронизацияGitLab</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаданиеНаРаботу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.пр_ОтладкаИнтеграции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.пр_ЗаданияНаРаботуПланФакт</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.пр_ПланФактныйАнализОценкиТрудоемкости</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

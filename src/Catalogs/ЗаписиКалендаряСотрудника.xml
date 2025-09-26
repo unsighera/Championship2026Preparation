@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="5da833e7-e9ee-4ba7-8121-1f0fa0f59a4a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗаписиКалендаряСотрудника" category="Object">
+				<xr:TypeId>082ea481-1dcd-4439-96fc-4bccd6a261da</xr:TypeId>
+				<xr:ValueId>5fc017e6-e79a-49ca-b1f8-30ae74e0593a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗаписиКалендаряСотрудника" category="Ref">
+				<xr:TypeId>ab1c7efd-e1a3-4aaa-941d-77a1a3d0b90d</xr:TypeId>
+				<xr:ValueId>3ae24266-6e11-46b9-aa93-aec47afd2919</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗаписиКалендаряСотрудника" category="Selection">
+				<xr:TypeId>aa25b5fc-7c60-4a9e-8233-0826ab30579c</xr:TypeId>
+				<xr:ValueId>b99e6f22-4f16-4264-b4c2-69620c2ff752</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗаписиКалендаряСотрудника" category="List">
+				<xr:TypeId>6a2f3679-b74e-4e28-9abd-27b7654efebb</xr:TypeId>
+				<xr:ValueId>821e8e91-eefc-497e-ad1c-6cbcea3ba51f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗаписиКалендаряСотрудника" category="Manager">
+				<xr:TypeId>71e9ba0b-6d9a-4689-8db5-aecd72d24640</xr:TypeId>
+				<xr:ValueId>feea8647-02bf-4c5b-9d60-6ba3c507a87a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаписиКалендаряСотрудника</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0290aaf3-e853-4ddc-8fba-f026b038349a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1298a7f1-13fb-4bed-bad1-0dc1bcfbad4d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КолонкаКалендаря</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e6c8d6c5-0925-440d-82ae-350409af63a3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КолонкиКалендарейСотрудников</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="98a4dfb6-1880-41b5-a47f-55e03072bd81">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Календарь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7c3bf599-6a89-47c6-9a06-fecabd65cad9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КалендариСотрудников</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ff41baf6-f60e-45a4-99f1-c2f04c122b62">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Источник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>be681a68-a7a2-4224-b511-b7edb1bc61ee</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ИсточникЗаписейКалендаря</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a7916f8b-f303-4fef-8a78-424e9e229076">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтветственныйИсточника</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2f5fdb88-e918-45d4-a5b9-1827b8677dda</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
